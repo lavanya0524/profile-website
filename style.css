@@ -1,47 +1,26 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-  
-  body {
-    background-color: hsl(0, 3%, 6%);
-    color:hsl(0, 7%, 97%);
-    text-align: center;
-    border: 25px solid rgb(75, 17, 67);
-    border-radius: 15px;
-    border-style: groove;
-}
-nav {
-    background-color: hsl(0, 5%, 96%); 
-    justify-content: space-between;
-    align-content: center;
+body, html {
+    height: 100%;
+} 
+body {
+    align-items: center;
+    justify-content: center;
+} 
+.container {
     width: 100%;
+    max-width: 800px;
 }
-nav ul {
-    list-style-type: none; 
-    padding: 0;
-    margin: 0;
+.navbar-nav {
+    margin-left: auto;
+    max-width: 1000px;
 }
+.navbar-brand {
+    font-weight: bold;
+    color: #333;
+    left: 0;
+}
+.nav-link.active {
+    color: #6c44d9 !important;
 
-nav li {
-    display: inline-block; 
-}
-nav li a {
-    display: block;
-    color: #0f0e0e; 
-    text-decoration: none; 
-    padding: 10px 20px; 
-    transition: 0.5s;
-}
-nav li a:hover {
-    background-color: hsl(0, 75%, 48%);
-}
-.nav{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000; /* Ensure it's above other content */
 }
 .main-content {
     display: flex;
@@ -49,135 +28,278 @@ nav li a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    background-color: #000;
+    margin-left: 10%;
 }
-
-.details {
-    font-size: larger;
-    font-style: italic;
-    color: hsl(0, 6%, 97%);
+.logos{
+    margin-left: 15%;
+    height: 25%;
+    color: #6c44d9;
+    margin-top: 0%;
+}
+.details{
+    font-style: bold;
+    color: hwb(0 41% 59%);
     margin-bottom: 20px;
-    width: 50%; 
-    margin-left: 7%;
-    margin-top: 6%;
+    width: 40%; 
+    margin-left: -10%;
+    margin-top: 8%;
+    text-align: left;
 }
 .details h1{
-    font-size: 50px;
-    font-style: bold, initial;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.details span{
+    color: hsl(0, 1%, 33%);
+    font-size: 15px;
+    font-style: bold;
+    font-weight: bolder;
+}
+.details h5{
+    text-align: left;
+}
+.heading{
+    color: #0a0a0a;
+    font-size: 35px;
+    text-align: left;
+    font-style: bold;
 }
 .details a{
-    background: #212121;
+    background: #6c44d9;
     padding: 10px 18px;
     text-decoration: none;
     font-weight: bold;
     color: #fff;
-    background-color: #022c02;
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 70px;
+    height: 50px;
+    width: 30%;
 }
-.details span{
-    color: blue;
+.home__blob {
+    width: 280px;
+    fill: lightblue;
+    position: relative;
+    left: -350px; /* Adjust this value as needed */
 }
-.images {
-    width: 45%; 
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    right: 100px;
+.home__blob-img {
+    width: 200px;
+    height:300px;
 }
-.images img{
-    border-radius: 10%;
-    height: 70%;
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    transform: translateX(-50%);
-    transition: left 2s ease;
+.godownbtn{
+    position: fixed;
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+}
+.godownbtn a{
+    background-color: #fff;
 }
 /*----- for about page ----------*/
-#about{
-    padding: 80px 0;
-    color: #ababab;
+.container{
+    text-align: center;
 }
-.row{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.sub-title h1{
+    margin-bottom: 20px;
+    color: #111012;
 }
-.about-col-1{
-    flex-basis: 35%;
+.container h4{
+    color: rgb(62, 62, 62);
 }
-.about-col-1 img{
+.container p{
+    color: rgb(62, 62, 62);
+}
+.btn.btn2{
+    text-align: center;
+    background: #6c44d9;
+    color: #fff;
+    height: 50px;
+    width: 25%;
+    font-size: 15px;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 42%;
+    text-align: center;
+}
+/*-----------------for skills page------------*/
+h1{
+    text-align: center;
+}
+h6{
+    text-align: center;
+    color: rgb(62, 62, 62);
+}
+.skill {
+    margin-bottom: 20px;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-left: 32%;
+}
+.skill img {
+    width: 50px;
+    height: 10%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.progress-bar {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    height: 9px;
     width: 100%;
-    border-radius: 20px;
+    text-align: center;
 }
-.about-col-2{
-    flex-basis: 60%;
+.progress {
+    background-color: #6c44d9;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    border-radius: 5px;
+    inline-size: 15px;
+    width: 100%;
 }
-.about-col-2 p{
-    font-style: italic;
-}
-.sub-title{
-    font-size: 60px;
-    font-weight: 600;
-    color: blue;
-}
-.tab-titles{
-    display: flex;
-    margin: 20px 0 40px;
-}
-.tab-links{
-    margin-right: 50px;
-    color: blue;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    position: relative;
-}
-.tab-links::after{
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #ff004f;
+.percentage {
     position: absolute;
-    left: 0;
-    bottom: -8px;
-    transition: 0.5s;
+    right: 35%;
+    height: 10%;
+    padding: 2px 5px;
+    color: #111010;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
-.tab-links.active-link::after{
+/*-----------code for education--------*/
+.timeline{
+    position: relative;
+    max-width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+}
+h5{
+    text-align: center;
+}
+.container-1{
+    position: relative;
     width: 50%;
 }
-.tab-contents ul li{
-    list-style: none;
-    margin: 10px 0;
-    text-align: left;
+.education-logo{
+    color: #6c44d9;
+    text-align: center;
 }
-.tab-contents ul li span{
-    color: #b54769;
-    font-size: 14px;
+.text-box{
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
 }
-.tab-contents{
-    display: none;
+.text-box h5{
+    color: hwb(0 41% 59%);
 }
-.tab-contents.active-tab{
-    display: block;
+.text-box p{
+    color: hwb(0 41% 59%);
 }
-/*----------------------contact------------------*/
-.contact-left{
-    flex-basis: 35%;
+.left-container-1{
+    left: 0%;
 }
-.contact-right{
-    text-align: right;
-    flex-basis: 60%;
+.right-container-1{
+    left: 50%;
 }
-.contact-left p{
+.container-1 svg{
+    color: #6c44d9;
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 10px;
+    z-index: 10;
+}
+.right-container-1 svg{
+    left: -20px;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: #080808;
+}
+/*-------------code for portfolio--------*/
+.projects {
+    color: #080808;
+    padding: 50px;
+    text-align: center;
+    align-content: center;
+} 
+.carousel-inner {
+    max-height: 300px; 
+}
+.carousel-content {
+    align-items: center; 
+    display: flex;
+}
+.carousel-image {
+    left: 40%;
+    width: 25%; 
+    margin-right: 20px; 
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+.carousel-text {
+    width: 50%; 
+    text-align: center;
+}
+.carousel-text span{
+    color:#b54769
+}
+.carousel-control-prev,
+.carousel-control-next {
+    color: #030303; /* Change to the color you desire */
+}
+/*----code for contact me----*/
+.sub-title{
+    color: #030303;
+    text-align: center;
+    width: 100%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.contact-1, .contact-2 {
+    flex: 1;
+    margin: 0 10px;
+}
+.contact-1{
+    width: 80%;
+    margin-left: -10%;
+}
+.contact-2{
+    text-align: center;
+    width: 55%;
+    left: 50%;
+    margin-right: 10%;
+}
+.contact-1 h5{
     margin-top: 30px;
+    color: #6c44d9;
 }
-.contact-left p svg{
-    color: #ff004f;
+.contact-1 h5 svg{
     margin-right: 15px;
-    font-size: 25px;
+    color: #6c44d9;
+    font-size: 40px;
+}
+.contact-1 h5 i{
+    margin-right: 15px;
+    color: #6c44d9;
+    font-size: 20px;
 }
 .Icons{
     margin-top: 30px;
@@ -190,55 +312,79 @@ nav li a:hover {
     transition: transform 0.5s;  
 }
 .Icons a:hover{
-    color: #ff004f;
+    color: ##6c44d9;
     transform: translateY(-5px);
 }
-.btn.btn2{
-    display: inline-block;
-    background: #ff004f;
+.btn.btn3{
+    background: #6c44d9;
+    color: #fff;
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    font-size: 13px;
 }
-.contact-right form{
-    width: 100%;
+.contact-2 form{
+    width: 70%;
+    margin-left: 15%;
 }
 form input, form textarea{
-    width: 100%;
+    width: 150%;
     border: 0;
     outline: none;
-    background: #262626;
     padding: 15px;
     margin: 15px 0;
-    color: #fff;
+    color: rgb(19, 2, 2);
     font-size: 18px;
     border-radius: 6px;
+    background-color: hwb(219 86% 5%);
 }
-form .btn2{
+form .btn4{
     padding: 10px 40px;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 15px;
     cursor: pointer;
+    background-color: #6c44d9;
+    color: #fff;
+    height: 50px;
+    width: 40%;
     text-align: center;
+    margin-left: 40%;
 }
+.btn.btn4{
+    background: #6c44d9;
+    color: #fff;
+    text-align: center;
+    width: 60%;
+    height: 50px;
+    font-size: 20px;
+}
+/*-----footer-----*/
 .copyright{
     width: 100%;
     text-align: center;
-    padding: 20px 0;
-    background: #262626;
+    padding: 10px 0;
+    background-color: #6c44d9;
     font-weight: 300;
     margin-top: 20px;
+    color: #fff;
 }
 .copyright svg{
-    color: #ff004f;
+    color: #fff
 }
-/*---------------- css for small screen---------------*/
-@media (max-width: 768px) {
-    .images {
-        width: 80%;
-        margin: 0 auto;
-    }
+.footer{
+    color: #fff;
+    text-align: left;
 }
-
-@media (max-width: 576px) {
-    .images {
-        width: 100%;
-    }
+.references{
+    display: flex;
 }
+.references a{
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #fff;
+    height: 50px;
+    width: 10%;
+    margin-left: 20%;
+}
+/*---------theme-----------*/  
