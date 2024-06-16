@@ -4,168 +4,367 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
   <title>Portfolio Website</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">
-              </a>
+      <a class="navbar-brand" href="#">Lavanya</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-link active" id="navItem1" href="#wcuSection">
-                    Home
-                    <span class="sr-only">(current)</span>
-                </a>
-                <a class="nav-link" href="#exploreMenuSection" id="navItem2">About</a>
-                <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Skills</a>
-                <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
-                <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
-                <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+                <a class="nav-link active" href="#homeSection">Home</a>
+                <a class="nav-link" href="#About">About</a>
+                <a class="nav-link" href="#Skills">Skills</a>
+                <a class="nav-link" href="#Education">Education</a>
+                <a class="nav-link" href="#Projects">Projects</a>
+                <a class="nav-link" href="#Contact">Contact-Me</a>
+                <a class="nav-link" href="#Theme">Theme</a>
             </div>
         </div>
     </div>
 </nav>
       </div>
-      <div class="main-content d-flex flex-row justify-content-center">
-        <div class="details">
-            <h1 class="heading">Hi, I'm <span class="">Lavanya</span>.</h1>
-            <p>This is my <SPAN>Official Portfolio</SPAN> website to show all <br> Details and skills.</p>
+      <div class="main-content" id="homeSection" >
+        <div class="logos">
+          <i class="bi bi-github"></i><br><br>
+              <i class="bi bi-linkedin"></i>
         </div>
-        <i class="fa fa-address-book book" aria-hidden="true"></i>
-        <i class="bi bi-0-circle"></i>
-        <div class="images">
-            <img  src="https://pngfreepic.com/wp-content/uploads/2021/02/shape-png-freepic-31.png" class="shape">
-            <img  src="C:\Users\lavan\Downloads\WhatsApp Image 2024-04-15 at 9.36.52 PM.jpeg" class="photo">
+        <div class="details col-12 col-lg-6 col-md-6 col-sm-12">
+            <h1 class="heading">Hi, I'm <br>Lavanya</h1>
+            <h5>Fresher with Data Analytical skills</h5>
+            <p>Looking for a job opportunity in Data Science
+              like<br><SPAN>Data Scientist,Data Analyst</SPAN>.</p>
+            <a button type="button" class="nav-link" href="#Contact">Contact-Me   <i class="bi bi-arrow-right-square-fill"></i></button></a>
         </div>
+        <svg class="home__blob" viewBox="0 0 200 190">
+          <mask id="mask0" mask-type="alpha">
+              <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+          </mask>
+          <g mask="url(#mask0)">
+              <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                  165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                  129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                  -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                  <image class="home__blob-img" x="0" y="-10" href="https://res.cloudinary.com/dbhifogak/image/upload/v1714664407/muc9zsa8k5c87xxewlfb.jpg" />
+          </g>
+      </svg>
 </header>
-</body>
-</html>
+
 <!-----------code for about page--------->
-<div id="about">
-  <div class="container">
+<div class="container" id="About">
     <div class="row">
-      <div class="about-col-1">
-        <img src="C:\Users\lavan\Downloads\WhatsApp Image 2024-04-15 at 9.36.52 PM.jpeg" class="img-1">
-      </div>
-      <div class="about-col-2">
         <h1 class="sub-title">About Me</h1>
-        <p>Eager and dynamic under graduate with a keen interest in sustainable technology. Inspired by the potential of innovation to address environmental challenges. 
-          Excited to contribute to a forward thinking company committed to making a positive impact on the world. </p>
-          <div class="tab-titles">
-            <P class="tab-links active-link" onclick="opentab('Education')">Education</P>
-            <P class="tab-links"onclick="opentab('Skills')">Skills</P>
-            <P class="tab-links"onclick="opentab('Projects')">Projects</P>
-          </div>
-          <div class="tab-contents active-tab" id="Education">
-            <ul>
-              <li><span>B.TECH – DATA SCIENCE </span><br>
-                2022 – 2025(pursuing)<br>ST MARY’S ENGINEERING COLLEGE<br>Deshmukhi, Hyderabad. </li>
-              <li><span>DIPLOMA – ECE-93% </span><br>
-                2016 - 2019<br> NOVA COLLEGE OF ENGINEERING & TECHNOLOGY<br>Ibrahimpatnam, Vijiayawada.</li>
-              <li><span>SSC-87% </span><br>
-                2016<br> ZPP HIGH SCHOOL <br>Gopalapuram, EastGodavari Dist, A.P.</li>
-            </ul>
-          </div>
-          <div class="tab-contents" id="Skills">
-            <ul>
-              <li><span>PROGRAMMING LANGUAGES:</span><br>
-                Python<br>Java.</li>
-              <li><span>TOOLS AND TECHNOLOGIES:</span><br>
-                SQL<br>Power-BI</li>
-              <li><span>WEB DEVELOPING:</span><br>
-                html<br>CSS<br>Java Script.</li>
-              <li><span>UI/UX DESIGNING:</span><br>
-                Figma.</li>
-              <li><span>DATA ANALYSIS</span><br>
-                Ms-Excel.</li>
-            </ul>
-          </div>
-          <div class="tab-contents" id="Projects">
-            <ul>
-              <li>Project 1:<span>PYTHON QUIZ GAME!</span><br>
-                A python project where I developed some basic quiz questions about computer related abbrevations.<br>
-                <a href="https://1drv.ms/u/s!AoI3_ajHffTpdnQ925FlZbzWhsY?e=I2uOMx">PYTHON QUIZ GAME!</a></li>
-              <li>Project 2:<span>DATA VISUALIZATION</span><br>
-                An analysis of customer behavior using power-BI.<br>
-                <a href="https://1drv.ms/u/s!AoI3_ajHffTpfd3Ju-6eDzIkgXI?e=WMs9UG">DATA VISUALIZATION</a></li>
-              <li>Project 3:<span>PORTFOLIO</span><br>
-                Create personal portfolio website using html,css,java scrip.<br>
-                <a href="">PERSONAL PORTFOLIO</a></li>
-            </ul>
-          </div>
-      </div>
+        <h5>My Intoduction</h5><br>
+        <br><br><P>I am a aspirant in Data Science and a passion for a career in this role. Strong in data analysis and data visualization with intuitive problem-solving skills. 
+          Proficient in PYTHON, HTML, CSS, JavaScript, and SQL. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions. 
+          Looking to start the career as an entry-level Data Scientist with a reputed firm driven by technology.</P>
+         <a href="https://1drv.ms/b/c/e9f47dc7a8fd3782/EWihthK_DdpNoOqihOLAr2oBE0u4wAHoAlPdYkMoxxHS4A?e=m0g0uo" class="btn btn2">DOWNLOAD CV <i class="bi bi-download"></i></a><br>
+    </div>
+</div><br><br>
+<!-----------code for Skills page--------->
+<br><div id="Skills">
+<h1 class="skills">Skills</h1>
+<h6>My Technical Skills</h6><br><br>
+<div class="skill">
+  <img src="https://th.bing.com/th/id/OIP.4AGznojQ60ZrnRv3y3cdZwHaFj?w=251&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="HTML">
+  <div class="progress-bar">
+      <div class="progress" style="width: 60%;"></div>
+      <div class="percentage">60%</div>
+  </div>
+</div>
+<div class="skill">
+  <img src="https://th.bing.com/th/id/OIP.XZKnwyP_q19aUZV2vbuEMAHaHa?w=176&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="CSS">
+  <br><div class="progress-bar">
+      <div class="progress" style="width: 50%;"></div>
+      <div class="percentage">50%</div>
+  </div>
+</div>
+<div class="skill">
+  <img src="https://th.bing.com/th/id/OIP.fHlVykDzL6dxWBd49tqCZQHaHa?w=500&h=500&rs=1&pid=ImgDetMain" alt="JavaScript">
+  <br><div class="progress-bar">
+      <div class="progress" style="width: 50%;"></div>
+      <div class="percentage">50%</div>
+  </div>
+</div>
+<div class="skill">
+  <img src="https://th.bing.com/th/id/OIP.nUYOwBlsmc2xTLmGRzBTCQHaHa?w=196&h=196&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="python">
+  <br><div class="progress-bar">
+      <div class="progress" style="width: 60%;"></div>
+      <div class="percentage">50%</div>
+  </div>
+</div>
+<div class="skill">
+  <img src="https://th.bing.com/th/id/OIP.OKU2yeXaogETFKxfWd6bFgHaHa?w=180&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="MySQL">
+  <br><div class="progress-bar">
+      <div class="progress" style="width: 65%;"></div>
+      <div class="percentage">60%</div>
+  </div>
+</div>
+<div class="skill">
+  <img src="https://th.bing.com/th/id/OIP.Q6SjQXhNg3u_I7vUCxiuHgAAAA?w=166&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Power-BI">
+  <br><div class="progress-bar">
+      <div class="progress" style="width: 60%;"></div>
+      <div class="percentage">50%</div>
+  </div>
+</div>
+<div class="skill">
+  <img src="https://th.bing.com/th/id/OIP.VYnlVU-GDU6AijdqdZ7m2QHaGg?w=202&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Ms-Excel">
+  <br><div class="progress-bar">
+      <div class="progress" style="width: 50%;"></div>
+      <div class="percentage">40%</div>
+  </div>
+</div>
+<div class="skill">
+  <img src="https://th.bing.com/th/id/OIP.UogU4ojR3MKra1WcJSQ6-AHaH6?w=172&h=184&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Figma">
+  <br><div class="progress-bar">
+      <div class="progress" style="width: 60%;"></div>
+      <div class="percentage">60%</div>
+  </div>
+</div>
+</div><br>
+<!--------code for education----->
+<br><br><div id="Education">
+<h1>Qualification</h1>
+  <h5>My Personal Journey</h5><br>
+  <h4 class="education-logo"><i class="bi bi-mortarboard"></i> Education</h4>
+  <div class="timeline">
+  <div class="container-1 left-container-1">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+      <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+    </svg>
+    <div class="text-box">
+      <h4>SSC</h4>
+      <h5><i class="bi bi-calendar3"></i> 2016</h5>
+      <P>ZPP HIGH SCHOOL</P>
+    </div>
+  </div>
+
+  <div class="container-1 right-container-1">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+      <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+    </svg>
+    <div class="text-box">
+      <h4>DIPLOMA - ECE</h4>
+      <h5><i class="bi bi-calendar3"></i> 2019</h5>
+      <P>NOVA COLLEGE OF ENGINEERING & TECHNOLOGY</P>
+    </div>
+  </div>
+
+  <div class="container-1 left-container-1">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+      <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+    </svg>
+    <div class="text-box">
+      <h4>B.TECH - CSE(DATA SCIENCE)</h4>
+      <h5><i class="bi bi-calendar3"></i> 2022-Ongoing</h5>
+      <P>ST MARY'S ENGINEERING COLLEGE</P>
     </div>
   </div>
 </div>
-
-<!-------------Contact------------->
-<div id="contact">
+</div>
+<!----------code for portfolio---------->
+<h1 class="projects">Portfolio</h1>
+<div id="Projects" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-content">
+        <img src="https://th.bing.com/th/id/OIP.cFAPJPZm60DNwM7Zcc6Q1gHaD0?rs=1&pid=ImgDetMain" class="carousel-image">
+        <div class="carousel-text">
+          <h2>Project-1:<span>DATA VISUALIZATION</span><br></h2>
+          <p>An analysis of customer behavior using power-BI.</p><br>
+          <h4><span>Data & output:</span></h4>
+          <a href="https://github.com/lavanya0524/data-visualization.git">DATA VISUALIZATION</a>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-content">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.uuaHov4LuqA6sEDvThJjkgHaEK&pid=Api&P=0&h=180" class="carousel-image">
+        <div class="carousel-text">
+          <h2>Project-2:<span>PYTHON QUIZ GAME!</span></h2>
+          <p>A python project where I developed some basic quiz questions about computer related abbrevations.</p>
+          <h4><span>Source code:</span></h4>
+          <a href="https://github.com/lavanya0524/python-quiz-game.git">PYTHON QUIZ GAME!</a>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="carousel-content">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.7vxrhH48_TaCdcvqBcK-4AHaE2&pid=Api&P=0&h=180" class="carousel-image">
+        <div class="carousel-text">
+          <h2>Project-3:<span>PORTFOLIO</span><br></h2>
+          <p>Create personal portfolio website using html,css,java scrip.</p><br>
+          <h4><span>File:</span></h4>
+          <a href="https://github.com/lavanya0524/profile-website.git">PORTFOLIO</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#Projects" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#Projects" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div><br>
+<!----code for contact me------->
+<br><div id="Contact">
+  <h1 class="sub-title">Contact-Me</h1><br>
   <div class="container">
     <div class="row">
-      <div class="contact-left">
-        <h1 class="sub-title">Contact Me</h1>
-        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+      <div class="contact-1">
+        <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+          <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+        </svg>Call Me</h5>
+        <p>9390552637</p>
+        <h5><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
           <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z"/>
           <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
-        </svg> lavanya99088@gmail.com</p>
-        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-          <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-        </svg> 939055263</p>
-        <div class="Icons">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-              </svg>
-              <a href="www.linkedin.com/in/venkata-lavanya-415814285"> linkedin</a>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
-              </svg>
-              <a href="https://github.com/lavanya99088"> github</a>
+        </svg> E-mail</h5>
+        <p>lavanya99088@gmail.com</p>
+        <h5><i class="bi bi-geo-alt"></i> Location</h5>
+        <p>Telangana</p>
         </div>
-        <br><a href="https://1drv.ms/b/s!AoI3_ajHffTpcZjrchWY7fKFDY0?e=0fYoz3" class="btn btn2">DOWNLOAD CV</a><br>
       </div>
-      <div class="contact-right">
+      <div class="contact-2">
         <form>
-          <input type="text" name="Name" placeholder="Your Name" required>
-          <input type="email" name="email" placeholder="Your Email" required>
-          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-          <button type="submit" class="btn btn2">Submit</button>
+          <input type="text" name="Name" rows="1" placeholder="Your Name" required>
+          <input type="email" name="email" rows="1" placeholder="Your Email" required>
+          <input type="text" name="Phone Number" rows="1" placeholder="Your Phone number" required>
+          <textarea name="Message" rows="3" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn4 contact-center">Submit</button>
         </form>
       </div>
     </div>
   </div>
-  <div class="copyright">
-    <p>Copyright  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
-    </svg> @Lavanya.</p>
   </div>
+
+<!----footer---->
+<div class="copyright">
+  <h3 class="footer">Lavanya</h3>
+  <div class="references">
+  <a class="nav-link" href="#About">About</a>
+  <a class="nav-link" href="#Projects">portfolio</a>
+  <a class="nav-link" href="#Contact">ContactMe</a>
+  </div><br>
+  <p>Copyright  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+    <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314"/>
+  </svg> @Lavanya.</p>
 </div>
+</div>
+</body>
+</html>
+
+<!------theme-------->
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script>
-  var tablinks = document.getElementsByClassName("tab-links");
-  var tabcontents = document.getElementsByClassName("tab-contents");
+document.addEventListener('DOMContentLoaded', function () {
+  // Get all carousel items
+  const carouselItems = document.querySelectorAll('.carousel-item');
 
-  function opentab(tabname){
-    for(tablink of tablinks){
-      tablink.classList.remove("active-link");
+  // Add click event listener to each carousel item
+  carouselItems.forEach((item, index) => {
+    item.addEventListener('click', function () {
+      // Remove 'active' class from all items
+      carouselItems.forEach((item) => {
+        item.classList.remove('active');
+      });
+      // Add 'active' class to the clicked item
+      this.classList.add('active');
+    });
+  });
+});
+</script>
+
+<script>
+form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        clearErrors();
+
+        // Validate name
+        if (nameInput.value.trim() === '') {
+            nameError.textContent = 'Please enter your name.';
+            return;
+        }
+
+        // Validate email
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(emailInput.value)) {
+            emailError.textContent = 'Please enter a valid email address.';
+            return;
+        }
+
+        // Validate message
+        if (messageInput.value.trim() === '') {
+            messageError.textContent = 'Please enter a message.';
+            return;
+        }
+
+        // Form submission successful
+        confirmationMessage.textContent = 'Your message has been sent!';
+        form.reset();
+    });
+
+    function clearErrors() {
+        nameError.textContent = '';
+        emailError.textContent = '';
+        messageError.textContent = '';
+        confirmationMessage.textContent = '';
+        
     }
-    for(tabcontent of tabcontents){
-      tabcontent.classList.remove("active-tab");
-    }
-    event.currentTarget.classList.add("active-link");
-    document.getElementById(tabname).classList.add("active-tab");
+    </script>
+
+  <script>
+  // Function to update active navigation item
+  function updateActiveNavItem() {
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(link => {
+        // Remove 'active' class from all navigation links
+        link.classList.remove('active');
+        // Check if the link's href matches the current URL hash
+        if (link.getAttribute('href') === window.location.hash) {
+            // Add 'active' class to the link if it matches the hash
+            link.classList.add('active');
+        }
+    });
   }
-  
+
+// Event listener for hashchange event
+window.addEventListener('hashchange', updateActiveNavItem);
+
+// Initial call to update active navigation item on page load
+updateActiveNavItem();
+
 </script>
 </body>
 </html>
+
+
+
+
